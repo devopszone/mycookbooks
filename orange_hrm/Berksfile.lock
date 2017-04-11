@@ -1,0 +1,19 @@
+DEPENDENCIES
+  orange_hrm
+    path: .
+    metadata: true
+
+GRAPH
+  archive (0.2.8)
+    cutlery (>= 0.0.0)
+  cutlery (0.2.10)
+    partial_search (>= 0.0.0)
+  mysql (8.2.0)
+  orange_hrm (0.1.0)
+    archive (~> 0.2.8)
+    mysql (~> 8.2.0)
+    unzip (~> 0.0.1)
+    zipfile (~> 0.1.0)
+  partial_search (1.0.9)
+  unzip (0.0.1)
+  zipfile (0.1.0)
