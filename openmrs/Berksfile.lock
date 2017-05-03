@@ -1,0 +1,19 @@
+DEPENDENCIES
+  openmrs
+    path: .
+    metadata: true
+
+GRAPH
+  apt (6.0.1)
+  homebrew (3.0.0)
+  java (1.47.0)
+    apt (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  mysql (8.2.0)
+  ohai (5.0.0)
+  openmrs (0.1.0)
+    java (~> 1.47.0)
+    mysql (~> 8.2.0)
+  windows (3.0.0)
+    ohai (>= 4.0.0)
